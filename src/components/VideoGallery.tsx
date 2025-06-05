@@ -150,7 +150,7 @@ const allVideos = [
   {
     id: '17',
     title: 'Serverless Functions Explained',
-    picture: 'https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'serverless007',
     company: 'Cloud Devs',
     description: 'What are serverless functions and when should you use them?',
@@ -159,7 +159,7 @@ const allVideos = [
   {
     id: '18',
     title: 'Getting Started with Tailwind CSS',
-    picture: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'tailwind008',
     company: 'DesignCourse',
     description: 'A quick start guide to using Tailwind CSS in your projects.',
