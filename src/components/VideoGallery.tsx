@@ -6,7 +6,7 @@ const allVideos = [
   {
     id: '1',
     title: 'How to Build a Modern Web App',
-    picture: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'abc123',
     company: 'Web Dev Simplified',
     description: 'A deep dive into building modern web apps with best practices.',
@@ -15,7 +15,7 @@ const allVideos = [
   {
     id: '2',
     title: 'React vs Vue: The Ultimate Comparison',
-    picture: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'def456',
     company: 'Code Review',
     description: 'Comparing React and Vue for frontend development in 2025.',
@@ -24,7 +24,7 @@ const allVideos = [
   {
     id: '3',
     title: '10 CSS Tricks You Need to Know',
-    picture: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'ghi789',
     company: 'DesignCourse',
     description: 'Ten essential CSS tricks for every developer.',
@@ -60,7 +60,7 @@ const allVideos = [
   {
     id: '7',
     title: 'Next.js vs Astro: 2025 Edition',
-    picture: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'stu901',
     company: 'NextGen Devs',
     description: 'A look at Next.js and Astro for modern web projects.',
@@ -69,7 +69,7 @@ const allVideos = [
   {
     id: '8',
     title: 'Mastering Flexbox',
-    picture: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'vwx234',
     company: 'CSS Wizardry',
     description: 'Master CSS Flexbox for responsive layouts.',
@@ -114,7 +114,7 @@ const allVideos = [
   {
     id: '13',
     title: 'State Management in React',
-    picture: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'state003',
     company: 'React Academy',
     description: 'Understanding state management patterns in React.',
@@ -123,7 +123,7 @@ const allVideos = [
   {
     id: '14',
     title: 'Intro to Svelte',
-    picture: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'svelte004',
     company: 'Frontend Future',
     description: 'A beginner-friendly introduction to Svelte.',
@@ -132,7 +132,7 @@ const allVideos = [
   {
     id: '15',
     title: 'Debugging JavaScript Like a Pro',
-    picture: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'debug005',
     company: 'JS Debuggers',
     description: 'Tips and tricks for debugging JavaScript applications.',
@@ -168,7 +168,7 @@ const allVideos = [
   {
     id: '19',
     title: 'Accessibility for Web Developers',
-    picture: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'a11y009',
     company: 'Web Dev Simplified',
     description: 'Making your websites accessible to everyone.',
@@ -177,7 +177,7 @@ const allVideos = [
   {
     id: '20',
     title: 'Intro to WebAssembly',
-    picture: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'wasm010',
     company: 'NextGen Devs',
     description: 'What is WebAssembly and how can you use it?',
@@ -186,7 +186,7 @@ const allVideos = [
   {
     id: '21',
     title: 'Building a Design System',
-    picture: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'designsys011',
     company: 'UX Studio',
     description: 'How to create and maintain a scalable design system.',
@@ -195,7 +195,7 @@ const allVideos = [
   {
     id: '22',
     title: 'Unit Testing in JavaScript',
-    picture: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'unittest012',
     company: 'Test Driven',
     description: 'A practical guide to unit testing in JavaScript.',
@@ -213,7 +213,7 @@ const allVideos = [
   {
     id: '24',
     title: 'Deploying to Vercel & Netlify',
-    picture: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'deploy014',
     company: 'DevOps Academy',
     description: 'How to deploy your sites to Vercel and Netlify.',
@@ -222,7 +222,7 @@ const allVideos = [
   {
     id: '25',
     title: 'Intro to Astro Islands',
-    picture: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'astroislands015',
     company: 'Frontend Mastery',
     description: 'Understanding Astro Islands architecture.',
@@ -231,7 +231,7 @@ const allVideos = [
   {
     id: '26',
     title: 'Modern Animation with Framer Motion',
-    picture: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'framer016',
     company: 'DesignCourse',
     description: 'Create beautiful animations with Framer Motion.',
@@ -258,7 +258,7 @@ const allVideos = [
   {
     id: '29',
     title: 'Building a Blog with Astro',
-    picture: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'astroblog019',
     company: 'Frontend Mastery',
     description: 'Step-by-step guide to building a blog with Astro.',
@@ -267,7 +267,7 @@ const allVideos = [
   {
     id: '30',
     title: 'Web Performance Optimization',
-    picture: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'perf020',
     company: 'NextGen Devs',
     description: 'Techniques to make your websites blazing fast.',
