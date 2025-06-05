@@ -51,7 +51,7 @@ const allVideos = [
   {
     id: '6',
     title: 'Understanding TypeScript in 10 Minutes',
-    picture: 'https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'pqr678',
     company: 'TS Guru',
     description: 'Quickly understand TypeScript and its benefits.',
@@ -96,7 +96,7 @@ const allVideos = [
   {
     id: '11',
     title: 'Building REST APIs with Node.js',
-    picture: 'https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'restapi001',
     company: 'Node Masters',
     description: 'A practical guide to building RESTful APIs using Node.js.',
@@ -240,7 +240,7 @@ const allVideos = [
   {
     id: '27',
     title: 'SEO in 2025: What Matters?',
-    picture: 'https://images.unsplash.com/photo-1465101178521-c1a9136a3b99?auto=format&fit=crop&w=600&q=80',
+    picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'seo017',
     company: 'Web Dev Simplified',
     description: 'Latest SEO strategies for modern web apps.',
