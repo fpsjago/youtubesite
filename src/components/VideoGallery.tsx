@@ -358,7 +358,7 @@ const VideoGallery = () => {
       {/* Filter bar */}
       <div style={{
         display: 'flex',
-        flexWrap: 'wrap',// Adjusted for better visibility
+        flexWrap: 'wrap',
         gap: 12,
         justifyContent: 'center',
         margin: '104px 0 24px 0',

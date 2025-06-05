@@ -19,8 +19,8 @@ const VideoGrid: React.FC<VideoGridProps> = ({ videos, onVideoClick }) => (
   <div className="video-grid">
     <div style={{
       display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-      gap: '24px',
+      gridTemplateColumns: 'repeat(auto-fill, minmax(400px, 1fr))',
+      gap: '32px',
       padding: '24px 0',
       maxWidth: '100%',
       width: '100%',
