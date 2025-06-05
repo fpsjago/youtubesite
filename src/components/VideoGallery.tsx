@@ -153,7 +153,7 @@ const allVideos = [
     picture: 'https://images.unsplash.com/photo-1519985176271-adb1088fa94c?auto=format&fit=crop&w=600&q=80',
     videoCode: 'serverless007',
     company: 'Cloud Devs',
-    description: 'What are serverless functions and when should you use them?',
+    description: 'What are serverless functionss and when should you use them?',
     market: 'DevOps'
   },
   {
