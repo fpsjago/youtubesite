@@ -89,17 +89,18 @@ h1 {
   padding: 2rem 0 2rem 0.5rem;
   border-right: 1px solid #292929;
   min-height: 100vh;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
   z-index: 10;
   transition: width 0.2s, min-width 0.2s, padding 0.2s;
   margin-top: 3.5rem;
 }
 
 .sidebar-closed {
-  width: 0 !important;
-  min-width: 0 !important;
-  padding: 0 !important;
+  width: 56px !important;
+  min-width: 56px !important;
+  padding: 2rem 0 !important;
   overflow: hidden;
   border: none;
 }
@@ -279,6 +280,15 @@ display: flex;
   background: #292929;
 }
 
+.main-content {
+  margin-left: 220px;
+  transition: margin-left 0.2s;
+}
+
+.sidebar-closed ~ .main-content {
+  margin-left: 56px;
+}
+
 @media (max-width: 900px) {
   .sidebar {
     width: 60px;
@@ -331,5 +341,16 @@ display: flex;
   .main-search input {
     width: 60px;
     font-size: 0.9rem;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

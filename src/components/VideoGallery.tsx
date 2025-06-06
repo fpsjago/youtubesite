@@ -289,7 +289,6 @@ const marketSegments = [
   'AI/ML',
   'Mobile Security',
   'Network',
-  'Compliance',
   'Data Privacy',
   'AppSec',
   'IoT',

@@ -9,14 +9,14 @@ const MainPage: React.FC = () => {
     <div className="main-wrapper" style={{ display: 'flex', minHeight: '100vh' }}>
       <Sidebar />
       <div className="main-content" style={{ flex: 1 }}>
-        <form className="main-search" onSubmit={e => e.preventDefault()}>
+        
           <input
             type="text"
             placeholder="Search videos..."
             value={search}
             onChange={e => setSearch(e.target.value)}
           />
-        </form>
+    
         <VideoGallery />
       </div>
     </div>

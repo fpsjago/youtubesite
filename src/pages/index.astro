@@ -10,7 +10,7 @@ import Sidebar from '../components/Sidebar';
 
 <div style={{ display: 'flex', minHeight: '100vh' }}>
 	<Sidebar client:only="react" />
-	<main style={{ flex: 1 }}>
+	<div id="main-content"  style={{ flex: 1 }}>
 		<VideoGallery client:only="react" />
-	</main>
+	</div>
 </div>

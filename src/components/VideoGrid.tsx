@@ -25,16 +25,24 @@ const VideoGrid: React.FC<VideoGridProps> = ({ videos, onVideoClick }) => (
       maxWidth: '100%',
       width: '100%',
     }}>
-      {videos.map(video => (
-        <VideoCard
+      {videos.map((video, idx) => (
+        <div
           key={video.id}
-          title={video.title}
-          thumbnail={video.picture}
-          channel={video.company}
-          views={video.videoCode}
-          date={video.description}
-          onClick={onVideoClick ? () => onVideoClick(video.id) : undefined}
-        />
+          style={{
+            animation: onVideoClick ? 'fadeInUp 0.6s cubic-bezier(0.4,0,0.2,1) both' : undefined,
+            animationDelay: `${idx * 0.04}s`,
+            willChange: 'opacity, transform',
+          }}
+        >
+          <VideoCard
+            title={video.title}
+            thumbnail={video.picture}
+            channel={video.company}
+            views={video.videoCode}
+            date={video.description}
+            onClick={onVideoClick ? () => onVideoClick(video.id) : undefined}
+          />
+        </div>
       ))}
     </div>
   </div>
